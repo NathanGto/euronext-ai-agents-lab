@@ -1,0 +1,8 @@
+[
+  { "pair": "EUR/USD", "mid": 1.0842, "changePct": 0.12, "updatedAt": "2026-08-11T16:30:00Z" },
+  { "pair": "EUR/GBP", "mid": 0.8531, "changePct": -0.07, "updatedAt": "2026-08-11T16:30:00Z" },
+  { "pair": "EUR/CHF", "mid": 0.9418, "changePct": 0.03, "updatedAt": "2026-08-11T16:30:00Z" },
+  { "pair": "EUR/JPY", "mid": 161.24, "changePct": 0.41, "updatedAt": "2026-08-11T16:30:00Z" },
+  { "pair": "GBP/USD", "mid": 1.2709, "changePct": 0.19, "updatedAt": "2026-08-11T16:30:00Z" },
+  { "pair": "USD/JPY", "mid": 148.72, "changePct": 0.28, "updatedAt": "2026-08-11T16:30:00Z" }
+]

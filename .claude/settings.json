@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep",
+      "WebSearch",
+      "WebFetch",
+      "Bash(npm run build:deck:*)",
+      "Bash(npm run read:pdf:*)",
+      "Bash(npm run log:run:*)",
+      "Bash(npm install)",
+      "Bash(npm --prefix web install)",
+      "Bash(npm test)",
+      "Bash(npm run typecheck)",
+      "Bash(npm run web:dev)",
+      "Bash(npm run web:build)",
+      "Bash(open http://localhost:*)",
+      "Bash(xdg-open http://localhost:*)",
+      "Bash(node --version)",
+      "Bash(npm --version)"
+    ]
+  }
+}

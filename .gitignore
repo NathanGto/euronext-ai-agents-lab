@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Env & secrets
+.env
+.env.local
+*.local
+
+# Internal prep material — kept local, never published to the public repo
+/context/
+
+# Build / cache
+dist/
+.cache/
+*.tsbuildinfo
+
+# Next.js (web/)
+web/.next/
+web/.next-verify/
+web/out/
+web/next-env.d.ts
+
+# Agent outputs (kept local; the folder is tracked via .gitkeep, contents are not)
+projects/*/output/*
+!projects/*/output/.gitkeep
+
+# Per-participant run-log (created on first `npm run log:run`; the *.example.json shows the shape)
+projects/*/runs.json
+
+# Live agent-flow diagram (rewritten during the design interview; agent-flow.example.mmd shows the shape)
+/agent-flow.mmd
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.code-workspace
